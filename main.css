@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
 html {
   background: url("assets/freedom.jpg") no-repeat center fixed;
   background-size: cover;
 }
+
 
 .subtitle {
   display: table;
@@ -13,8 +21,6 @@ html {
 .content {
   display: table-cell;
   vertical-align: middle;
-  width: 100vw;
-  height: 100vh;
 }
 
 h1 {
@@ -23,9 +29,9 @@ h1 {
   font-weight: 500;
   font-size: 37px;
   color: darkslategray;
-  margin-left: 68px;
-  margin-right: 68px;
-  padding-top: 15px;
+  margin-left: 76px;
+  margin-right: 76px;
+  padding-top: 23px;
   margin-bottom: 0;
   letter-spacing: 2px;
   line-height: 50px;
