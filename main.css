@@ -2,3 +2,49 @@ html {
   background: url("assets/freedom.jpg") no-repeat center fixed;
   background-size: cover;
 }
+
+.subtitle {
+  display: table;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 500;
+  font-size: 37px;
+  color: darkslategray;
+  margin-left: 68px;
+  margin-right: 68px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 320px;
+  margin-top: 80px;
+}
+
+p::before {
+  display: inline-block;
+  content: "";
+  background-color: black;
+  height: 1px;
+  width: 0.5rem;
+  vertical-align: middle;
+  margin: 0.25rem;
+}
